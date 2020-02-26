@@ -1,0 +1,83 @@
+
+body {
+  text-align: center;
+  background-color: #344C65;
+}
+footer{
+  color: white;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  border: 10px solid black;
+/*  border-radius: 20%;*/
+}
+.quarter-circle-top-left{
+     width: 200px;
+     height: 200px;
+     border-radius: 200px 0 0 0;
+     -moz-border-radius: 200px 0 0 0;
+     -webkit-border-radius: 200px 0 0 0;
+}
+.quarter-circle-top-right{
+     width: 200px;
+     height: 200px;
+     border-radius: 0 200px 0 0;
+     -moz-border-radius: 0 200px 0 0;
+     -webkit-border-radius: 0 200px 0 0;
+}
+.quarter-circle-bottom-left{
+     width: 200px;
+     height: 200px;
+     border-radius: 0 0 0 200px;
+     -moz-border-radius: 0 0 0 200px;
+     -webkit-border-radius: 0 0 0 200px;
+}
+.quarter-circle-bottom-right{
+    width: 200px;
+    height: 200px;
+    border-radius: 0 0 200px 0;
+    -moz-border-radius: 0 0 200px 0;
+    -webkit-border-radius: 0 0 200px 0;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}

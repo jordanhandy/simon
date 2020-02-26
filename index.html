@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Custom font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="level-title">Press A Key to Start</h1>
+    <div class="container">
+      <div lass="row">
+        <div
+          type="button"
+          id="green"
+          class="quarter-circle-top-left btn green"
+        ></div>
+
+        <div
+          type="button"
+          id="red"
+          class="quarter-circle-top-right btn red"
+        ></div>
+      </div>
+
+      <div class="row">
+        <div
+          type="button"
+          id="yellow"
+          class="quarter-circle-bottom-left btn yellow"
+        ></div>
+        <div
+          type="button"
+          id="blue"
+          class="quarter-circle-bottom-right btn blue"
+        ></div>
+      </div>
+    </div>
+    <!-- Declare JavaScript and JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+  <footer>
+    <p>
+      © Jordan Handy, 2020
+    </p>
+  </footer>
+</html>
